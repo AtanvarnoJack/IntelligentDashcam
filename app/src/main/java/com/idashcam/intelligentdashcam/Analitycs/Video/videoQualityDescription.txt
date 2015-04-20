@@ -1,0 +1,88 @@
+    /**
+     * Quality level corresponding to the lowest available resolution.
+     */
+    public static final int QUALITY_LOW  = 0;
+
+    /**
+     * Quality level corresponding to the highest available resolution.
+     */
+    public static final int QUALITY_HIGH = 1;
+
+    /**
+     * Quality level corresponding to the qcif (176 x 144) resolution.
+     */
+    public static final int QUALITY_QCIF = 2;
+
+    /**
+     * Quality level corresponding to the cif (352 x 288) resolution.
+     */
+    public static final int QUALITY_CIF = 3;
+
+    /**
+     * Quality level corresponding to the 480p (720 x 480) resolution.
+     * Note that the horizontal resolution for 480p can also be other
+     * values, such as 640 or 704, instead of 720.
+     */
+    public static final int QUALITY_480P = 4;
+
+    /**
+     * Quality level corresponding to the 720p (1280 x 720) resolution.
+     */
+    public static final int QUALITY_720P = 5;
+
+    /**
+     * Quality level corresponding to the 1080p (1920 x 1080) resolution.
+     * Note that the vertical resolution for 1080p can also be 1088,
+     * instead of 1080 (used by some vendors to avoid cropping during
+     * video playback).
+     */
+    public static final int QUALITY_1080P = 6;
+
+    /**
+     * Quality level corresponding to the QVGA (320x240) resolution.
+     */
+    public static final int QUALITY_QVGA = 7;
+
+    // Start and end of quality list
+    private static final int QUALITY_LIST_START = QUALITY_LOW;
+    private static final int QUALITY_LIST_END = QUALITY_QVGA;
+
+    /**
+     * Time lapse quality level corresponding to the lowest available resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_LOW  = 1000;
+
+    /**
+     * Time lapse quality level corresponding to the highest available resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_HIGH = 1001;
+
+    /**
+     * Time lapse quality level corresponding to the qcif (176 x 144) resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_QCIF = 1002;
+
+    /**
+     * Time lapse quality level corresponding to the cif (352 x 288) resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_CIF = 1003;
+
+    /**
+     * Time lapse quality level corresponding to the 480p (720 x 480) resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_480P = 1004;
+
+    /**
+     * Time lapse quality level corresponding to the 720p (1280 x 720) resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_720P = 1005;
+
+    /**
+     * Time lapse quality level corresponding to the 1080p (1920 x 1088) resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_1080P = 1006;
+
+    /**
+     * Time lapse quality level corresponding to the QVGA (320 x 240) resolution.
+     */
+    public static final int QUALITY_TIME_LAPSE_QVGA = 1007;

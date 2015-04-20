@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup_settings"
+    android:background="@drawable/popupbackground200">
+
+    <TextView
+        android:id="@+id/txt_label_popup_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reglage:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView4"
+        android:background="#c836a1d7"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map Visibility"
+        android:id="@+id/btn_reglage_photo"
+        android:background="@drawable/popupbackground50btn"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView5"
+        android:background="#c836a1d7"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map Setting"
+        android:id="@+id/btn_popup_setting_map"
+        android:background="@drawable/popupbackground50btn"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView7"
+        android:background="#c836a1d7"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Settings"
+        android:id="@+id/btn_reglage_video"
+        android:background="@drawable/popupbackground50btn"
+        android:layout_weight="1" />
+
+</LinearLayout>

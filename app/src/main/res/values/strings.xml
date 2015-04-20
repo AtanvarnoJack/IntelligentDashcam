@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Intelligent Dashcam</string>
+    <string name="title_activity_camera">Map</string>
+
+    <string name="capturescreen">Capture!</string>
+    <string name="photo">Photo!</string>
+    <string name="video">Video!</string>
+    <string name="recon">Rec:On!</string>
+    <string name="recoff">Rec:OFF!</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">Back!</string>
+    <string name="title_activity_drawner__main">Drawner_Main</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
