@@ -22,7 +22,7 @@
                 android:id="@+id/txt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reglages"
+                android:text="Reglages Video"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/holo_blue_dark" />
@@ -70,7 +70,8 @@
                     android:text=":Min"
                     android:id="@+id/textView3"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    android:layout_margin="5dp" />
 
             </LinearLayout>
 
@@ -94,7 +95,8 @@
                     android:text=":Sec"
                     android:id="@+id/textView4"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    android:layout_margin="5dp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -151,7 +153,8 @@
                 android:layout_alignBottom="@+id/edt_LenghtVideo"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -247,7 +250,8 @@
                 android:background="@drawable/popupbackground50btn"
                 android:layout_marginLeft="20dp"
                 android:layout_gravity="right"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:layout_margin="5dp" />
 
         </LinearLayout>
 
@@ -267,6 +271,7 @@
             android:id="@+id/btn_setup_video_save"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/popupbackground50btn"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_margin="5dp" />
     </LinearLayout>
 </ScrollView>

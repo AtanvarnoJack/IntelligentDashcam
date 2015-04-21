@@ -46,7 +46,7 @@ public class MyGoogleMap {
         CameraPosition cameraPosition = CameraPosition.builder()
                 .target(mapCenter)
                 .zoom(mapConfiguration.getZoom())
-                .bearing(90)
+                .bearing(0)
                 .build();
         myMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition), 500, null);
     }

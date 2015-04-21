@@ -24,7 +24,7 @@
                 android:id="@+id/txt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reglages"
+                android:text="Reglages Map"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@android:color/holo_blue_dark" />
@@ -160,7 +160,8 @@
                 android:textColor="@android:color/white"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@+id/btn_setting_map_interval_set"
-                android:layout_toStartOf="@+id/btn_setting_map_interval_set" />
+                android:layout_toStartOf="@+id/btn_setting_map_interval_set"
+                android:layout_marginRight="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -251,7 +252,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@+id/btn_setting_map_fastinterval_set"
                 android:layout_toStartOf="@+id/btn_setting_map_fastinterval_set"
-                android:layout_margin="10dp" />
+                android:layout_marginRight="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -374,7 +375,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_toLeftOf="@+id/btn_setting_map_zoom_set"
-                android:layout_toStartOf="@+id/btn_setting_map_zoom_set" />
+                android:layout_toStartOf="@+id/btn_setting_map_zoom_set"
+                android:layout_marginRight="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -451,7 +453,8 @@
                 android:id="@+id/btn_setting_map_save"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/popupbackground50btn"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:layout_margin="5dp" />
 
         </LinearLayout>
     </LinearLayout>
